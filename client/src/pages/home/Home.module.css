@@ -1,0 +1,103 @@
+.btn{
+    display: inline-block;
+    padding: 18px 24px;
+    background-color:  #0F2045;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.homeBody{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.courseBtn{
+    margin: 80px 0 30px 300px;
+}
+
+.container{
+    display: block;
+    margin: 10px 0 100px 300px;
+    width: 80%;
+}
+
+.courseTable{
+     width: 80%;
+     height: 200px;
+     font-size: 25px;
+     text-align: center;
+}
+
+.courseTable tr{
+    border:  2px solid #0F2045;
+    padding: 10px 20px;
+}
+
+.courseTable tr:nth-child(odd){
+    background-color: #d6e6e7cb;
+ }
+
+.courseTable td{
+    border:  2px solid #0F2045;
+    padding: 10px 20px;
+}
+.courseTable th{
+    border:  2px solid #0F2045;
+    padding: 10px 20px;
+}
+
+.btnLink{
+     display: inline-block;
+     text-decoration: none;
+     background-color: #0F2045;
+     color: #fff;
+     padding: 10px 16px;
+     border-radius: 6px;
+     margin-right: 8px;
+} 
+
+.btnLink:hover{
+    color: red;
+}
+
+.courseName{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.courseName:hover{
+    color: red;
+}
+.desc{
+    color: #000;
+    font-size: 16px;
+    width: 40%;
+}
+.formStyle{
+    margin-top: 100px;
+    background-color:#0f2045e3;
+    width: 800px;
+    border-radius: 12px ;
+    padding: 20px 50px;
+} 
+.textStyle{
+    font-size: 28px;
+    color: crimson;
+}
+.marginTop{
+    margin-top: 100px;
+}
+
+
+.errorBorder{
+    border: 2px solid red;
+}
+
+.err{
+    color: red;
+}

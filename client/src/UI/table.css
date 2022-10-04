@@ -1,0 +1,40 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 56%;
+    margin: 0 auto;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px ;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+  }
+  
+  table tr:nth-child(even){background-color: #c2c1c1;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th, tfoot td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #0f2045e3;
+    color: white;
+  }
+
+  table button{
+    padding: 9px 14px;
+    background-color:  #0F2045;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 6px;
+    border: #ddd;
+  }
+  table button:hover{
+    color: red;
+  }
+

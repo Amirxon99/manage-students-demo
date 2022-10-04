@@ -1,0 +1,34 @@
+.nav{
+    background-color: #F5F5F5;
+    display: flex;
+    padding: 10px  50px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 10px 5px #888888;
+}
+
+.logo{
+    width: 280px;
+    height: 80px;
+    gap: 20px;
+        display: flex;
+}
+.logo button{
+    margin-top: 40px;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    background-color: #0F2045;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.text_box{
+    color: #0F2045;
+    font-family:  monospace;
+    font-size: 25px;
+}

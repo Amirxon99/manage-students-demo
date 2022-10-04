@@ -1,0 +1,56 @@
+.paginationContainer {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+  }
+  
+  .prev {
+    cursor: pointer;
+    fill: black;
+  }
+  
+  .next {
+    cursor: pointer;
+    fill: black;
+  }
+  
+  .next > svg:hover {
+    fill: black;
+  }
+  
+  .prev > svg:hover {
+    fill: black;
+  }
+  
+  .linkPages {
+    display: block;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.507);
+    font-size: 22px;
+    /* padding: 0 10px; */
+    font-weight: 600;
+    margin: 0 0.5rem;
+  }
+  
+  .linkPages:hover {
+    color:#0f2045e3;
+  }
+  
+  .active {
+    border-radius: 8px;
+    color: white;
+    font-size: 25px;
+    pointer-events: none;
+    background-color: black;
+    padding: 0 10px;
+  }
+  
+  .disabledTrue {
+    pointer-events: none;
+  }
+  .disabledTrue > svg {
+    fill: rgb(187, 175, 175);
+  }
+  
